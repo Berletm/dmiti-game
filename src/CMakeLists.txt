@@ -1,0 +1,2 @@
+file(GLOB_RECURSE SRCFILES "*.cpp")
+target_sources(${PROJECT_NAME} PRIVATE ${SRCFILES})
